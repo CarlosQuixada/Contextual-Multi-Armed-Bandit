@@ -1,0 +1,23 @@
+[project]
+name = "contextual-multi-armed-bandit"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Carlos Quixadá",email = "carlosquixada95@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.10"
+
+[tool.poetry.dependencies]
+pandas = "^2.3.0"
+scikit-learn = "^1.7.0"
+notebook = "^7.4.3"
+matplotlib = "^3.10.3"
+mabwiser = "^2.7.4"
+tqdm = "^4.67.1"
+statsmodels = "^0.14.4"
+lightgbm = "^4.6.0"
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
